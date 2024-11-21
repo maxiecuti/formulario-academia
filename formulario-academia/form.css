@@ -1,0 +1,66 @@
+/* Dev. by Leandromeda */
+body{
+ background-color: rgb(255, 197, 237);
+ background-attachment: fixed;
+ background-image: url(img/imagem2.jpg);
+}
+
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.roboto-thin {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ form{
+    width: 550px;
+    margin: auto;
+    background: #ffbeec;
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(146, 17, 90);
+ }
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+ }
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+ }
+ .medidas{
+    display: inline;
+    width: 35%;
+ }
+ input[type='checkbox'], input[type='radio']{
+   margin-right: 0px;
+   margin-left: 15px;
+}
+input:focus, select:focus, textarea:focus{
+   outline: none;
+   border: solid 1px #ff0084;
+}
+ #enviar{
+   width: 100%;
+   border: 2px solid #b60070;
+   background-color: #ffffff;
+   color: #e60aa4;
+   font-weight: bold;
+   cursor: pointer;
+   padding: 15px;
+ }
+ #enviar:hover{
+  background-color: #a9007f;
+  color: #ffffff;
+transition:all linear 0.3;
+ }
+
+button{
+   text-align: center;
+}
